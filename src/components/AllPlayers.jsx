@@ -30,7 +30,6 @@ console.log(players)
 return <main>{
     players.map((player) => {
       return <article key={player.id}>
-        <h2> onClick={() => navigate(`/players/${player.id}`)}</h2>
         <h2> {player.id} </h2>
         <h2> {player.name} </h2>
         <h2> {player.breed}</h2>
